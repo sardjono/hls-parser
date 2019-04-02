@@ -19,29 +19,27 @@ Parses HLS manifest and generates output in JSON format
 2. Supports cookie-based tokenisation of URL
 3. Supports redirection of URL
 
-***Environment:***
+## Environment:
 Mac OS X 10.12.6 (Sierra)
 python 3.6
 
-***Steps to configure and test:***
+## Steps to configure and test:
 
 1. Create and run inside python virtual environment
->     $ cd ~
->     $ mkdir parse_hls
->     $ cd parse_hls
->     $ python3.6 -m venv venv
->     $ source venv/bin/activate
->     $ pip install --upgrade pip 
->     $ pip install flask
+> $ cd ~
+> $ mkdir parse_hls
+> $ cd parse_hls
+> $ python3.6 -m venv venv
+> $ source venv/bin/activate
+> $ pip install --upgrade pip 
+> $ pip install flask
 
 2. Copy package from this repository
 
-3. Run in local environment
-
-> note: all debug messages will appear in this window
+3. Run in local environment (note: all debug messages will appear in this window)
 > $ python parse_hls.py
 
-5. Test using web browser in local machine
+4. Use web browser to parse HLS in local machine
 
     http://localhost:5000/test 
 
