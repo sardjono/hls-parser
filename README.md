@@ -26,18 +26,19 @@ python 3.6
 ## Steps to configure and test:
 
 1. Create and run inside python virtual environment
-> $ cd ~
-> $ mkdir parse_hls
-> $ cd parse_hls
-> $ python3.6 -m venv venv
-> $ source venv/bin/activate
-> $ pip install --upgrade pip 
-> $ pip install flask
+>  $ cd ~
+>  $ mkdir parse_hls
+>  $ cd parse_hls
+>  $ python3.6 -m venv venv
+>  $ source venv/bin/activate
+>  $ pip install --upgrade pip 
+>  $ pip install flask
 
 2. Copy package from this repository
 
-3. Run in local environment (note: all debug messages will appear in this window)
-> $ python parse_hls.py
+3. Run in local environment 
+>  note: all debug messages will appear in this window
+>  $ python parse_hls.py
 
 4. Use web browser to parse HLS in local machine
 
