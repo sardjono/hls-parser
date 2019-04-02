@@ -3,19 +3,19 @@ Parses HLS manifest and generates output in JSON format
 
 ## Features:
 1. Supports the following HLS tags:
-    #EXTINF
-    #EXTM3U
-    #EXT-X-I-FRAME-STREAM-INF
-    #EXT-X-INDEPENDENT-SEGMENTS
-    #EXT-X-KEY
-    #EXT-X-MEDIA
-    #EXT-X-MEDIA-SEQUENCE
-    #EXT-X-PROGRAM-DATE-TIME
-    #EXT-X-SESSION-KEY
-    #EXT-X-STREAM-INF
-    #EXT-X-TARGETDURATION
-    #EXT-X-VERSION
-    ... more to be added soon ...
+    * #EXTINF
+    * #EXTM3U
+    * #EXT-X-I-FRAME-STREAM-INF
+    * #EXT-X-INDEPENDENT-SEGMENTS
+    * #EXT-X-KEY
+    * #EXT-X-MEDIA
+    * #EXT-X-MEDIA-SEQUENCE
+    * #EXT-X-PROGRAM-DATE-TIME
+    * #EXT-X-SESSION-KEY
+    * #EXT-X-STREAM-INF
+    * #EXT-X-TARGETDURATION
+    * #EXT-X-VERSION
+    * ... more to be added soon ...
 2. Supports cookie-based tokenisation of URL
 3. Supports redirection of URL
 
