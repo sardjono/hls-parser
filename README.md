@@ -42,7 +42,7 @@ $ pip install flask
 3. Run in local environment 
 ```
 # note: all debug messages will appear in this window
-$ python parse_hls.py
+$ python parse_m3u8.py
 ```
 4. Use web browser to parse HLS in local machine
 
