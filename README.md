@@ -22,8 +22,8 @@ Parses HLS manifest and generates output in JSON format
 3. Supports redirection of URL
 
 ## Environment:
-Mac OS X 10.12.6 (Sierra)
-python 3.6
+* Mac OS X 10.12.6 (Sierra)
+* python 3.6
 
 ## Steps to configure and test:
 
